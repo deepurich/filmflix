@@ -1,0 +1,26 @@
+[
+    {
+        "filmID": "1",
+        "title": "The Muppets",
+        "yearReleased": 2022,
+        "rating": "PG",
+        "duration": 116,
+        "genre": "comedy"
+    },
+    {
+        "filmID": "2",
+        "title": "The Legend of Tarzan",
+        "yearReleased": 2016,
+        "rating": "PG",
+        "duration": 109,
+        "genre": "Test"
+    },
+    {
+        "filmID": "3",
+        "title": "Jason Bourne",
+        "yearReleased": 2016,
+        "rating": "PG",
+        "duration": 123,
+        "genre": "Action"
+    }
+]

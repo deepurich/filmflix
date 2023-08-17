@@ -1,0 +1,15 @@
+.loginPopup {
+    position: relative;
+    text-align: center;
+
+}
+
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 60%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+
+
+}
