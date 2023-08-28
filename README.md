@@ -19,5 +19,5 @@ python3 app.py
 Then open the below file in web brower
 
 ```
-frontend\index.html 
+[View Project](frontend/index.html)
 ```
