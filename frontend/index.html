@@ -79,7 +79,7 @@
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("GET", "http://localhost:6969/users", true);
+        xhr.open("GET", "https://filmflix--ratnabollapalli.repl.co/users", true);
         // Send the request over the network
         xhr.send(null);
     }
@@ -88,7 +88,7 @@
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("GET", "http://localhost:6969/films", true);
+        xhr.open("GET", "https://filmflix--ratnabollapalli.repl.co/films", true);
         // Send the request over the network
         xhr.send(null);
     }
@@ -119,7 +119,7 @@
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("POST", "http://localhost:6969/films", true);
+        xhr.open("POST", "https://filmflix--ratnabollapalli.repl.co/films", true);
         // Send the request over the network
         xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         xhr.send(JSON.stringify(dataToSend));
@@ -144,7 +144,7 @@
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("PUT", "http://localhost:6969/films", true);
+        xhr.open("PUT", "https://filmflix--ratnabollapalli.repl.co/films", true);
         // Send the request over the network
         xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         xhr.send(JSON.stringify(dataToSend));
@@ -159,7 +159,7 @@
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("DELETE", "http://localhost:6969/films", true);
+        xhr.open("DELETE", "https://filmflix--ratnabollapalli.repl.co/films", true);
         // Send the request over the network
         xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         xhr.send(JSON.stringify(dataToSend));
